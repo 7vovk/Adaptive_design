@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+@media only screen and (max-device-width: 375px) {
+    body {
+        width: 100%;
+        height: 1350px;
+    }
+    header {
+        background: url(../img/375/SaleHeader.png);
+        background-repeat: no-repeat;
+        width: 375px;
+        height: 400px;
+    }
+    .wrapper {
+        width: 375px;
+        height: 760px;
+    }
+    .headerMenu {
+        display: none;
+    }
+    .headerMenu375 {
+        display: flex;
+        width: 315px;
+        justify-content: space-between;
+        padding: 15px 0 0 30px;
+    }
+
+    .headerMenu375 a {
+        color: #fff;
+        line-height: 20px;
+    }
+
+    .logoBit {
+        height: 20px;
+        width: 30px;
+        margin: 2px 0px 0 25px;
+    }
+    .officeNav {
+        margin: 215px 0 0 0;
+    }
+    .officeNav li {
+        margin: 24px 0 0 20px;
+    }
+    .officeNav li a img {
+        height: 34px;
+    }
+    .headerNav li {
+        margin: 52px 13px 0 17px;
+    }
+    .headerNav li img {
+        height: 12px;
+    }
+    .content img {
+        margin: 27px 0 80px 35px;
+        height: 80px;
+    }
+    .content div div {
+        width: 220px;
+        margin: 27px 0 0 22px;
+    }
+    .content div div p {
+        font-size: 14pt;
+        line-height: 17px;
+        margin: 20px 0;
+    }
+    .content h2 {
+        font-size: 19pt;
+        line-height: 19px;
+    }
+    .content h3 {
+        font-size: 13pt;
+        line-height: 23px;
+        margin-top: 9px;
+    }
+    .content div div h3 {
+        font-size: 14pt;
+        line-height: 22px;
+        margin-top: 10px;
+    }
+    .content p {
+        font-size: 13pt;
+        line-height: 21px;
+        width: 323px;
+        left: -110px;
+        top: 22px;
+        position: relative;
+    }
+    .content div img {
+        margin: 28px 0px 90px 36px;
+    }
+    .content > div > div > div {
+        margin: 0;
+        width: 135px;
+    }
+    .learnMore a {
+        font-size: 11pt;
+    }
+    .blog img {
+        width: 30px;
+        height: 30px;
+        margin: 0 auto;
+    }
+    .blog {
+        width: 520px;
+    }
+    .blog > div {
+        width: 50px;
+        height: 50px;
+    }
+    .blog > div:last-child {
+        margin: 44px 0 0 26px;
+        width: 200px;
+    }
+    .blog p {
+        font-size: 7pt;
+    }
+    .blog p:nth-child(1) {
+        font-weight: 100;
+        font-size: 13pt;
+    }
+    .blog > div:last-child p:first-child {
+        font-size: 14pt;
+        font-size: 13pt;
+        width: 275px;
+        line-height: 19px;
+        margin: 0px 0 0 10px;
+    }
+    .blog > div > img {
+        width: 30px;
+        height: 30px;
+        margin: 95px 0 0 15px;
+    }
+    .blog > div:first-child > p {
+        font-size: 7pt;
+        width: 35px;
+        margin-left: 124px;
+        top: 0px;
+    }
+    #fifty {
+        font-size: 15pt;
+        line-height: 10px;
+        margin: 8px 0 0 12px;
+    }
+    #icons > div > img {
+        width: 30px;
+        height: 30px;
+    }
+    #icons > div > p {
+        position: relative;
+        top: -7px;
+        left: -135px;
+    }
+    #icons > div {
+        width: 50px;
+        margin: 0;
+    }
+    #icons {
+        width: 330px;
+        position: relative;
+        left: -185px;
+        top: 40px;
+    }
+    #icons img {
+        margin: 15px auto 0;
+    }
+    .social {
+        margin: 107px 40px 0 0;
+        width: 135px;
+        position: unset;
+    }
+
+    .social img {
+        height: 20px;
+    }
+    footer {
+        background: url(../img/375/SaleFooter.png);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 326px;
+        margin: 71px 0 0 0;
+    }
+    .footerMenu {
+        height: 84px;
+        width: 90%;
+        margin: 0;
+    }
+    .footerMenu li {
+        top: auto;
+        left: auto;
+        margin: 0;
+        line-height: 35px;
+        font-size: 9pt;
+        font-weight: 900;
+    }
+    .footerMenu li:first-child {
+        margin: 0 0 0 0;
+    }
+    .footerMenu > li:first-child {
+        margin: 45px 0 0 25px;
+        font-size: 8pt;
+    }
+
+    .footerMenu span {
+        display: block;
+        position: relative;
+        width: 314px;
+        top: -104px;
+        left: 7px;
+    }
+
+    .footerMenu a {
+        margin-left: 30px;
+    }
+
+}

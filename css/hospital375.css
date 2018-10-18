@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+@media only screen and (max-device-width: 375px) {
+    body {
+        width: 100%;
+        height: 760px;
+    }
+    header {
+        background: url(../img/375/HospitalHeader.png);
+        background-repeat: no-repeat;
+        width: 375px;
+        height: 400px;
+    }
+    .wrapper {
+        width: 375px;
+        height: 760px;
+    }
+    .headerMenu {
+        display: none;
+    }
+    .headerMenu375 {
+        display: flex;
+        width: 315px;
+        justify-content: space-between;
+        padding: 15px 0 0 30px;
+    }
+
+    .headerMenu375 a {
+        color: #fff;
+        line-height: 20px;
+    }
+    .menu {
+        margin-top: 5px;
+    }
+
+    .logoBit {
+        height: 20px;
+        width: 30px;
+        margin: 2px 0px 0 25px;
+    }
+    .officeNav li {
+        margin: 250px 0 0 23px;
+    }
+    .officeNav li a img {
+        height: 30px;
+    }
+    .headerNav li {
+        margin: 47px 15px 0 18px;
+    }
+    .headerNav li img {
+        height: 12px;
+    }
+    .content {
+        width: 100%;
+    }
+    h3 {
+        font-size: 11pt;
+        line-height: 25px;
+    }
+    .content img {
+        height: 20px;
+    }
+    .inform {
+        width: 150px;
+        height: 25px;
+        font-size: 13pt;
+        line-height: 25px;
+        margin: 25px 0 0 180px;
+    }
+    .social {
+        margin: 80px 40px 0 200px;
+        width: 135px;
+    }
+
+    .social img {
+        height: 20px;
+    }
+    footer {
+        background: url(../img/375/HospitalFooter.png);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 342px;
+    }
+    .footerMenu {
+        height: 84px;
+        width: 90%;
+        margin: 0;
+    }
+    .footerMenu li {
+        top: auto;
+        left: auto;
+        margin: 0;
+        line-height: 35px;
+        font-size: 9pt;
+        font-weight: 900;
+    }
+    .footerMenu li:first-child {
+        margin: 0 0 0 0;
+    }
+    .footerMenu > li:first-child {
+        margin: 85px 0 0 25px;
+        font-size: 8pt;
+    }
+
+    .footerMenu span {
+        display: block;
+        position: relative;
+        width: 314px;
+        top: -104px;
+        left: 7px;
+    }
+
+    .footerMenu a {
+        margin-left: 30px;
+    }
+
+}

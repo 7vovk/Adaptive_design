@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 768px) {
+    body {
+        background: url(../img/768/HomeBg768.png);
+        background-repeat: no-repeat;
+        height: 4205px;
+        width: 100%;
+    }
+    .wrapper {
+        width: 768px;
+    }
+    header {
+        width: 630px;
+        margin: 35px 0 0 55px;
+    }
+    .headerMenu {
+        height: 84px;
+        font-size: 17pt;
+        width: 630px;
+    }
+    .logoBit {
+        height: 35px;
+        width: 50px;
+    }
+    .headerMenu a {
+        line-height: 30px;
+        margin-left: 25px;
+    }
+    .business {
+        width: 650px;
+        height: 200px;
+        margin: 20px 0 0 20px;
+    }
+    .business > p {
+        font-size: 20pt;
+        width: 300px;
+        margin: 0;
+    }
+    .business > a {
+        width: 235px;
+        height: 35px;
+        border: 3px solid #FFF;
+        line-height: 33px;
+        margin-top: 40px;
+    }
+    .info {
+        margin: 395px 0 0 0;
+        font-size: 14pt;
+    }
+    .info h3:last-child {
+        margin: 15px auto;
+        width: 620px;
+        line-height: 40px;
+        font-size: 14pt;
+        font-weight: 100;
+    }
+    .info h3:last-child span {
+        display: block;
+        font-weight: 900;
+        margin-top: 25px;
+        line-height: 35px;
+    }
+    .services {
+        margin-top: 100px;
+    }
+    .services img {
+        height: 80px;
+    }
+    .services a {
+        margin: 30px 0px 0 70px;
+        line-height: 100px;
+    }
+    .services span a {
+        margin: 25px 0 0 115px;
+    }
+    .info2 {
+        width: 100%;
+        text-align: center;
+        margin: 525px 0 0 0;
+        font-size: 17pt;
+    }
+    .info2 ul {
+        display: block;
+    }
+    .info2 ul li {
+        margin-top: 225px;
+    }
+    .info3 {
+        width: 650px;
+        margin: 0 0 0 90px;
+    }
+    .info3 h3:first-child {
+        width: 500px;
+        margin: 155px 0 0 155px;
+        font-size: 19pt;
+    }
+    .info3 h3:nth-child(2) {
+        width: 560px;
+        font-weight: 100;
+        margin-top: 30px;
+        line-height: 29px;
+        font-size: 18pt;
+    }
+    .info3 h3:nth-child(3) {
+        font-weight: 100;
+        font-size: 19pt;
+        margin: 14px 0 0 303px;
+    }
+    h2 {
+        margin-top: 595px;
+        font-size: 20pt;
+    }
+    .startIcon {
+        width: 135px;
+        height: 135px;
+        margin-top: 120px;
+    }
+    .social {
+        width: 180px;
+        line-height: 30px;
+        margin: 350px 0 0 310px;
+        float: unset;
+    }
+    .social img {
+        height: 25px;
+    }
+    .footerMenu {
+        height: 84px;
+        width: 90%;
+        margin: 0;
+    }
+    .footerMenu li {
+        position: relative;
+        top: -75px;
+        left: -10px;
+        line-height: 35px;
+        font-size: 15pt;
+
+    }
+    .footerMenu>li:first-child {
+        margin: 115px 0 0 90px;
+        font-size: 8pt;
+    }
+    .footerMenu a {
+        margin-left: 135px;
+    }
+
+}

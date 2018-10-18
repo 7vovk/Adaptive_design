@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+@media only screen and (max-device-width: 375px) {
+    body {
+        width: 100%;
+        height: 1350px;
+    }
+    header {
+        background: url(../img/375/OfficeHeader.png);
+        background-repeat: no-repeat;
+        width: 375px;
+        height: 400px;
+    }
+    .wrapper {
+        width: 375px;
+        height: 760px;
+    }
+    .headerMenu {
+        display: none;
+    }
+    .headerMenu375 {
+        display: flex;
+        width: 315px;
+        justify-content: space-between;
+        padding: 15px 0 0 30px;
+    }
+
+    .headerMenu375 a {
+        color: #fff;
+        line-height: 20px;
+    }
+
+    .logoBit {
+        height: 20px;
+        width: 30px;
+        margin: 2px 0px 0 25px;
+    }
+    .officeNav {
+        width: 100%;
+        margin: 195px 0 0 0;
+        flex-direction: column;
+    }
+    .officeNav li {
+        margin: 24px 0 0 22px;
+    }
+    .officeNav li a img {
+        height: 26px;
+    }
+    .headerNav li {
+        margin: 28px 15px 0 17px;
+    }
+    .headerNav li img {
+        height: 12px;
+    }
+    .content img {
+        margin: 27px 0 80px 35px;
+        height: 80px;
+    }
+    .content div div {
+        width: 220px;
+        margin: 27px 0 0 22px;
+    }
+    .content h2 {
+        font-size: 19pt;
+        line-height: 19px;
+    }
+    .content h3 {
+        font-size: 13pt;
+        line-height: 23px;
+        margin-top: 9px;
+    }
+    .content p {
+        font-size: 13pt;
+        line-height: 21px;
+        width: 323px;
+        left: -110px;
+        top: 22px;
+        position: relative;
+    }
+    .social {
+        margin: 96px 40px 0 0;
+        width: 135px;
+        position: unset;
+    }
+
+    .social img {
+        height: 20px;
+    }
+    footer {
+        background: url(../img/375/OfficeFooter.png);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 342px;
+        margin: 45px 0 0 0;
+    }
+    .footerMenu {
+        height: 84px;
+        width: 90%;
+        margin: 0;
+    }
+    .footerMenu li {
+        top: auto;
+        left: auto;
+        margin: 0;
+        line-height: 35px;
+        font-size: 9pt;
+        font-weight: 900;
+    }
+    .footerMenu li:first-child {
+        margin: 0 0 0 0;
+    }
+    .footerMenu > li:first-child {
+        margin: 45px 0 0 25px;
+        font-size: 8pt;
+    }
+
+    .footerMenu span {
+        display: block;
+        position: relative;
+        width: 314px;
+        top: -104px;
+        left: 7px;
+    }
+
+    .footerMenu a {
+        margin-left: 30px;
+    }
+
+}

@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 768px) {
+    header {
+        background: url(../img/768/OfficeHeader.png);
+        background-repeat: no-repeat;
+        height: 663px;
+        width: 100%;
+    }
+    .wrapper {
+        width: 100%;
+    }
+    header {
+        width: 100%;
+        padding: 0;
+        height: 665px;
+    }
+    .headerMenu {
+        height: 84px;
+        font-size: 17pt;
+        width: 630px;
+        padding: 35px 0 0 55px;
+    }
+    .logoBit {
+        height: 35px;
+        width: 50px;
+    }
+    .headerMenu a {
+        line-height: 30px;
+        margin-left: 25px;
+    }
+    .officeNav {
+        width: 100%;
+        margin: 0;
+    }
+    .officeNav li {
+        margin: 385px 0 0 34px;
+    }
+    .officeNav li a img {
+        height: 30px;
+    }
+    .headerNav {
+        width: 100%;
+    }
+    .headerNav li {
+        margin: 88px 52px 0 35px;
+    }
+    .headerNav li img {
+        height: 19px;
+    }
+    .content {
+        width: 100%;
+        padding: 0;
+    }
+    .content div img {
+        margin: 40px 0px 0 35px;
+        height: 80px;
+        width: 80px;
+    }
+    .content div div {
+        width: 590px;
+        margin: 45px 0 0 20px;
+    }
+    .content h2 {
+        font-size: 20pt;
+        line-height: 20px;
+    }
+    .content div div h3 {
+        font-size: 14pt;
+        line-height: 14px;
+        margin-top: 8px;
+    }
+    .content div div p {
+        font-size: 14pt;
+        line-height: 20px;
+        margin-top: 4px;
+    }
+    .content > div > div > div {
+        margin: 0;
+        width: 530px;
+    }
+    .blog img {
+        width: 30px;
+        height: 30px;
+        margin: 0 auto;
+    }
+    .blog {
+        width: 520px;
+    }
+    .blog > div {
+        width: 50px;
+        height: 50px;
+    }
+    .blog > div:last-child {
+        margin: 35px 0 0 0;
+        width: 500px;
+    }
+    .blog p {
+        font-size: 7pt;
+    }
+    .blog p:nth-child(1) {
+        font-weight: 100;
+        text-align: left;
+        font-size: 13pt;
+    }
+    .blog > div:last-child p:first-child {
+        font-weight: 100;
+        font-size: 14pt;
+        text-align: left;
+        width: 455px;
+        line-height: 20px;
+        margin: 5px 0 0 5px;
+    }
+    .blog > div > img {
+        width: 30px;
+        height: 30px;
+        margin: 0;
+    }
+    .blog > div:first-child > p {
+        font-size: 7pt;
+        width: 35px;
+    }
+    #fifty {
+        text-align: left;
+        font-size: 14pt;
+        line-height: 5px;
+    }
+    #icons > div > img {
+        width: 30px;
+        height: 30px;
+    }
+    #icons > div > p {
+        font-size: 10px;
+        text-align: center;
+    }
+    #icons > div {
+        margin: 0;
+    }
+    #icons {
+        width: 305px;
+        margin: 15px 0 0 78px;
+    }
+    #icons img {
+        margin: 15px auto 0;
+    }
+    .social {
+        width: 180px;
+        position: absolute;
+        top: 1475px;
+        left: 317px;
+    }
+    .social img {
+        height: 25px;
+    }
+    .footerMenu {
+        width: 700px;
+        margin: 246px 0 0 0;
+    }
+    .footerMenu li {
+        position: relative;
+        top: -75px;
+        left: -10px;
+        line-height: 35px;
+        font-size: 15pt;
+    }
+    footer {
+        background: url(../img/768/OfficeProFooter.png);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 342px;
+    }
+    .footerMenu>li:first-child {
+        margin: 115px 0 0 90px;
+        font-size: 8pt;
+    }
+    .footerMenu a {
+        margin-left: 185px;
+    }
+
+}

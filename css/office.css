@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body {
+    width: 1920px;
+}
+.wrapper {
+    width: 1920px;
+}
+header {
+    background: url(../img/1920/OfficeHeader.png);
+    background-repeat: no-repeat;
+    width: 1920px;
+    height: 1150px;
+    padding: 27px 0 0 120px;
+}
+.headerMenu375 {
+    list-style: none;
+    display: none;
+}
+.headerMenu {
+    height: 84px;
+    font-size: 23pt;
+    width: 1660px;
+    list-style: none;
+    color: #FFF;
+}
+.logoBit {
+    height: 84px;
+    width: 122px;
+}
+.headerMenu a {
+    line-height: 68px;
+    color: #FFF;
+    margin-left: 20px;
+}
+.headerMenu li:first-child {
+    display: inline-block;
+    float: left;
+    margin: 0;
+}
+.headerMenu li {
+    float: right;
+    margin: 0 0 0 10px;
+}
+.headerNav {
+    display: flex;
+    list-style: none;
+    width: 1920px;
+}
+.headerNav li {
+    margin: 225px 210px 0 0;
+}
+.officeNav {
+    list-style: none;
+    width: 1920px;
+    display: flex;
+}
+.officeNav li {
+    margin: 610px 125px 0 0;
+}
+.content {
+    width: 1920px;
+    padding: 20px 0 0 0;
+}
+.content img {
+    margin: 65px 0px 0 110px;
+}
+.content div {
+    display: flex;
+}
+.content div div {
+    display: flex;
+    flex-direction: column;
+    width: 1400px;
+    margin: 65px 0 0 110px;
+}
+.content h2 {
+    font-size: 45pt;
+    line-height: 65px;
+    color: #5b0016;
+}
+.content h3 {
+    font-size: 30pt;
+    line-height: 45px;
+    color: #333333;
+}
+.content p {
+    font-size: 20pt;
+    line-height: 45px;
+    color: #333333;
+}
+footer {
+    background: url(../img/1920/OfficeFooter.png);
+    background-repeat: no-repeat;
+    width: 1920px;
+    height: 627px;
+    margin: 25px 0 0 0;
+}
+.social {
+    width: 430px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 115px;
+    margin: 340px 165px 0 0;
+    float: right;
+}
+.footerMenu {
+    height: 84px;
+    width: 1760px;
+    list-style: none;
+    margin: 80px 0 0 0;
+    display: inline-block;
+}
+.footerMenu a {
+    color: #f5755f;
+    margin-left: 35px;
+}
+.footerMenu>li:first-child {
+    display: inline-block;
+    float: left;
+    margin: 0 0 0 140px;
+    color: #000;
+}
+.footerMenu li {
+    float: right;
+    margin: 0 0 0 10px;
+}

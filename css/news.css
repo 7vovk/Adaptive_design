@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background: url(../img/1920/NewsBg1920.png);
+    background-repeat: no-repeat;
+    width: 1920px;
+    height: 3010px;
+}
+
+.wrapper {
+    width: 1920px;
+}
+
+header {
+    padding: 27px 0 0 120px;
+}
+
+.headerMenu375 {
+    list-style: none;
+    display: none;
+}
+
+.headerMenu {
+    height: 84px;
+    font-size: 23pt;
+    width: 1660px;
+    list-style: none;
+    color: #FFF;
+}
+
+.logoBit {
+    height: 84px;
+    width: 122px;
+}
+
+.headerMenu a {
+    line-height: 68px;
+    color: #FFF;
+    margin-left: 20px;
+}
+
+.headerMenu li:first-child {
+    display: inline-block;
+    float: left;
+    margin: 0;
+}
+
+.headerMenu li {
+    float: right;
+    margin: 0 0 0 10px;
+}
+
+.headerNav {
+    display: flex;
+    list-style: none;
+    width: 1920px;
+}
+
+.headerNav span {
+    display: flex;
+}
+
+.headerNav li {
+    margin: 685px 100px 0 30px;
+}
+
+.officeNav {
+    list-style: none;
+    width: 1920px;
+    display: flex;
+    margin: 65px 0 0 0;
+}
+
+.officeNav li {
+    margin: 610px 90px 0 0;
+}
+
+.content {
+    width: 1720px;
+    margin: 170px 0 0 115px;
+    display: flex;
+}
+
+.ta {
+    width: 1230px;
+}
+
+.textarea {
+    width: 1185px;
+    height: 335px;
+    margin: 0 40px 20px 0;
+}
+
+.text768 {
+    display: none;
+}
+
+.text768 a {
+    color: #fff;
+}
+
+.arrows {
+    display: flex;
+    justify-content: space-between;
+    width: 1155px;
+    font-size: 20pt;
+    margin: 30px 0 0 15px;
+}
+
+.arrows a {
+    color: #fff;
+}
+
+.developer {
+    display: flex;
+    width: 740px;
+}
+
+.developer h3 {
+    color: #fff;
+    margin: 35px 0 0 0;
+    font-size: 32pt;
+}
+
+.arrow {
+    margin: 95px 0 0 50px;
+    width: 95px;
+    height: 10px;
+}
+
+.api {
+    margin: 57px 0 0 52px;
+}
+
+.itemsList {
+    list-style: none;
+    color: #FFF;
+    margin: 30px 0 0 0;
+    line-height: 58px;
+    font-size: 19pt;
+}
+
+.interesting {
+    font-size: 30pt;
+    color: #FFF;
+    line-height: 65px;
+}
+
+.find {
+    list-style: none;
+    width: 500px;
+    margin: 110px 0 0 0;
+}
+
+.find li:first-child {
+    line-height: 25px;
+}
+
+.find input {
+    width: 465px;
+    height: 55px;
+    background-color: #ffd1c1;
+    margin: 35px 0px 0 15px;
+    box-sizing: border-box;
+    outline: 15px solid #fff;
+    line-height: 55px;
+    font-size: 40pt;
+}
+
+h3 {
+    color: #5b0016;
+    font-size: 35pt;
+    line-height: 135px;
+}
+
+.inform {
+    width: 410px;
+    height: 70px;
+    font-size: 35pt;
+    color: #FFF;
+    display: inline-block;
+    border: 4px solid #FFF;
+    border-radius: 100px;
+    line-height: 65px;
+    text-align: center;
+    margin: 90px 0 0 1280px;
+}
+
+.blog {
+    display: flex;
+    width: 1050px;
+}
+
+.blog > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.blog img {
+    width: 77px;
+    height: 77px;
+    margin: 60px 0 0 0;
+}
+
+.blog > div:last-child {
+    margin: 40px 0px 0 30px;
+}
+
+.blog p {
+    display: inline-block;
+    font-weight: 900;
+    text-align: center;
+    color: #37020e;
+}
+
+#fifty {
+    text-align: left;
+    font-size: 20pt;
+    color: #37020e;
+}
+
+.blog > div:last-child p:first-child {
+    font-weight: 100;
+    font-size: 20pt;
+    text-align: left;
+    color: #333333;
+}
+
+.icons {
+    width: 1000px;
+}
+
+.icons img {
+    display: flex;
+    margin: 15px auto;
+}
+
+footer {
+    margin: 25px 0 0 0;
+}
+
+.learnMore a {
+    text-decoration: underline;
+    color: black;
+}
+
+.social {
+    width: 430px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 115px;
+    margin: 340px 165px 0 0;
+    float: right;
+}
+
+.footerMenu {
+    height: 84px;
+    width: 1760px;
+    list-style: none;
+    margin: 80px 0 0 0;
+    display: inline-block;
+}
+
+.footerMenu a {
+    color: #f5755f;
+    margin-left: 35px;
+}
+
+.footerMenu li:first-child {
+    display: inline-block;
+    float: left;
+    margin: 0 0 0 140px;
+    color: #000;
+}
+
+.footerMenu li {
+    float: right;
+    margin: 0 0 0 10px;
+}

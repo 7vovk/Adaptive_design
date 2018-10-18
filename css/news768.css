@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 768px) {
+    body {
+        background: url(../img/768/NewsBg.png);
+        background-repeat: no-repeat;
+        height: 2083px;
+        width: 100%;
+    }
+    .wrapper {
+        width: 100%;
+    }
+    header {
+        width: 100%;
+        padding: 0;
+        height: 520px;
+    }
+    .headerMenu {
+        height: 84px;
+        font-size: 17pt;
+        width: 633px;
+        padding: 38px 0 0 30px;
+    }
+    .logoBit {
+        height: 35px;
+        width: 50px;
+    }
+    .headerMenu a {
+        line-height: 30px;
+        margin-left: 25px;
+    }
+    .headerNav {
+        width: 100%;
+    }
+    .headerNav span {
+        display: flex;
+    }
+    .headerNav li {
+        margin: 357px 4px 0 51px;
+    }
+    .headerNav li img {
+        height: 19px;
+    }
+    .content {
+        width: 100%;
+        margin: 35px 0 0 50px;
+    }
+    .ta {
+        width: 675px;
+    }
+    .textarea {
+        width: 665px;
+        height: 175px;
+        margin: 0 40px 20px 0;
+    }
+    .arrows {
+        display: none;
+    }
+    .interesting {
+        font-size: 30pt;
+        line-height: 30px;
+        margin-left: 20px;
+    }
+    .text {
+        display: none;
+    }
+    .text768 {
+        display: block;
+        margin: 30px 0 0 2px;
+    }
+    .itemsList {
+        line-height: 52px;
+    }
+    .developer h3 {
+        margin: 29px 0 0 0;
+        font-size: 30pt;
+    }
+    .arrow {
+        margin: 96px 0 0 58px;
+        width: 91px;
+        height: 10px;
+    }
+    .social {
+        width: 180px;
+        line-height: 30px;
+        margin: 113px 0 0 303px;
+        float: unset;
+    }
+    .social img {
+        height: 25px;
+    }
+    footer {
+        margin: 232px 0 0 0;
+    }
+    .footerMenu {
+        width: 700px;
+        margin: 0;
+    }
+    .footerMenu li {
+        position: relative;
+        top: -75px;
+        left: -25px;
+        line-height: 35px;
+        font-size: 15pt;
+    }
+    .footerMenu li:first-child {
+        margin: 0px 0 0 149px;
+    }
+    .footerMenu>li:first-child {
+        margin: 115px 0 0 95px;
+        font-size: 8pt;
+    }
+    .footerMenu a {
+        margin-left: 135px;
+    }
+
+}
